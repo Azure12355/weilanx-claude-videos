@@ -108,6 +108,9 @@ import {DURATION as EP50_DURATION, FPS as EP50_FPS, H as EP50_H, W as EP50_W} fr
 import {Ep50LateNight} from './episodes/ep50-late-night/Ep50LateNight';
 import {DURATION as EP51_DURATION, FPS as EP51_FPS, H as EP51_H, W as EP51_W} from './episodes/ep51-practice/timeline';
 import {Ep51Practice} from './episodes/ep51-practice/Ep51Practice';
+import {DURATION as EP65_DURATION, FPS as EP65_FPS, H as EP65_H, W as EP65_W} from './episodes/ep65-hick/timeline';
+import {Ep65Hick} from './episodes/ep65-hick/Ep65Hick';
+import {Ep65CoverTall} from './episodes/ep65-hick/CoverTall';
 import {DURATION as EP36_DURATION, FPS as EP36_FPS, H as EP36_H, W as EP36_W} from './episodes/ep36-boxed-pigs/timeline';
 import {Ep36Pigs} from './episodes/ep36-boxed-pigs/Ep36Pigs';
 import {Ep36CoverTall} from './episodes/ep36-boxed-pigs/CoverTall';
@@ -202,6 +205,8 @@ export const Root: React.FC = () => (
       <Composition id="ep49-ad-strafe" component={Ep49AdStrafe} durationInFrames={EP49_DURATION} fps={EP49_FPS} width={EP49_W} height={EP49_H} />
       <Composition id="ep50-late-night" component={Ep50LateNight} durationInFrames={EP50_DURATION} fps={EP50_FPS} width={EP50_W} height={EP50_H} />
       <Composition id="ep51-practice" component={Ep51Practice} durationInFrames={EP51_DURATION} fps={EP51_FPS} width={EP51_W} height={EP51_H} />
+      <Composition id="ep65-hick" component={Ep65Hick} durationInFrames={EP65_DURATION} fps={EP65_FPS} width={EP65_W} height={EP65_H} />
+      <Still id="ep65-hick-cover-tall" component={Ep65CoverTall} width={1080} height={1440} />
     </Folder>
     <Folder name="07-暖纸工作台风">
       <Composition id="ep26-opus-video" component={Ep26OpusVideo} durationInFrames={EP26_DURATION} fps={FPS} width={EP26_W} height={EP26_H} defaultProps={mix} />

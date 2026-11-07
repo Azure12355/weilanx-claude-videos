@@ -15,6 +15,13 @@ export const MUSIC_DIR = join(root, 'public', 'music');
  * 并在 public/music/README.md 里记来源和授权。
  */
 export const TRACKS = {
+  'user-default': {
+    file: 'user-default-bgm.mp3',
+    seconds: 189.86,
+    mood: '沉稳、有推进感，战术屏无口播用',
+    note: '本文件由用户提供。实测 17.45 秒和 102.52 秒两次能量跳升，第 47 小节是低谷，网格与系列重拍一致。不要换成程序配乐。',
+    source: '用户提供的默认配乐；mp3 不进 git',
+  },
   'we-never': {
     file: 'we-never.mp3',
     seconds: 189.8,
